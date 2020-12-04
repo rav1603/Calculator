@@ -14,7 +14,7 @@ class NumberGeneratorJavaAPITest {
     void shouldReturnValueInGivenRange() {
         int result = numberGeneratorJavaAPI.getAnyNumberBetween(0, 10);
 
-        assertThat(result).isGreaterThan(0).isLessThan(10);
+        assertThat(result).isGreaterThan(0).isLessThanOrEqualTo(10);
     }
 
     @Test
