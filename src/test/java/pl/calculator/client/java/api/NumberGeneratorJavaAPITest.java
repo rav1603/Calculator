@@ -1,6 +1,7 @@
-package pl.calculator.client;
+package pl.calculator.client.java.api;
 
 import org.junit.jupiter.api.Test;
+import pl.calculator.client.java.api.NumberGeneratorJavaAPI;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;

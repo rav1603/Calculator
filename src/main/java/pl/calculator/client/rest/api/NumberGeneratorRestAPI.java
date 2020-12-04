@@ -1,4 +1,6 @@
-package pl.calculator.client;
+package pl.calculator.client.rest.api;
+
+import pl.calculator.client.NumberGenerator;
 
 import java.net.http.HttpResponse;
 

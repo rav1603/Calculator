@@ -1,4 +1,6 @@
-package pl.calculator.client;
+package pl.calculator.client.java.api;
+
+import pl.calculator.client.NumberGenerator;
 
 import java.util.Random;
 

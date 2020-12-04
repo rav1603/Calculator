@@ -1,7 +1,10 @@
-package pl.calculator.client;
+package pl.calculator.client.rest.api;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import pl.calculator.client.rest.api.NumberGeneratorRestAPI;
+import pl.calculator.client.rest.api.RestAPICall;
+import pl.calculator.client.rest.api.RestAPICallImpl;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.Mockito.mock;

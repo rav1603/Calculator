@@ -1,4 +1,4 @@
-package pl.calculator.client;
+package pl.calculator.client.rest.api;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
