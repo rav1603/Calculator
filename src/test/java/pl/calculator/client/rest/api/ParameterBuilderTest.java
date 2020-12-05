@@ -2,7 +2,6 @@ package pl.calculator.client.rest.api;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import pl.calculator.client.rest.api.ParameterBuilder;
 
 import java.util.Collections;
 import java.util.Map;
