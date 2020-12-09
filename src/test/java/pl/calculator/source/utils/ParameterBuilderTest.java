@@ -1,6 +1,7 @@
-package pl.calculator.client.rest.api;
+package pl.calculator.source.utils;
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
@@ -11,6 +12,7 @@ class ParameterBuilderTest {
     ParameterBuilder parameterBuilder = new ParameterBuilder();
 
     @Test
+    @Tag("UnitTest")
     void shouldReturnStringContainingAllParametersGivenInMap() {
         Map<String, String> params = Map.of("param1", "1", "param2", "2");
         String result = parameterBuilder.getParamsString(params);
@@ -19,6 +21,7 @@ class ParameterBuilderTest {
     }
 
     @Test
+    @Tag("UnitTest")
     void shouldReturnEmptyStringWhenEmptyMapIsGiven() {
         String result = parameterBuilder.getParamsString(Collections.emptyMap());
 
